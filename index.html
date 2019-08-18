@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fort Ross Festival</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/018a7d4e1c.js"></script>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <h5 class="navbar-text" style="color: white">Fort Ross Annual Harvest Festival</h5>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#location">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#activities">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#history">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!-- Home section-->
+    <div id="home" class="row">
+        <div class="col-lg-3 bg-dark">
+            <div id="banner" class="container text-justify" style="font-size: large">Looking for the perfect way
+                to celebrate Summer in Sonoma County? Join us on last Satturday of July for Fort Ross Festival! Where
+                else can you see militia and cannon demonstration, witness ceremonial dancing, listen to folkmusic,
+                learn from Alaska Native craftspeople, and take in traditional Russian performances, all together on
+                the most beautiful stretch of the Sonoma coast?</div>
+            <div id="myFlipbox" class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img id="samovar" src="images/samovar.png" alt="Samovar">
+                    </div>
+                    <div class="flip-box-back">
+                        <p id="join">Come join us!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 container-fluid bg-dark">
+            <div id="demo" class="carousel slide">
+        <!--<div id="demo" class="carousel slide" data-ride="carousel"> activate carousel-->
+        <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+                <li data-target="#demo" data-slide-to="5"></li>
+                <li data-target="#demo" data-slide-to="6"></li>
+                <li data-target="#demo" data-slide-to="7"></li>
+            </ul>
+        <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/wagon.jpg" alt="wagon">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/chorus.jpg" alt="chorus">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ringer.jpg" alt="ringer">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/borsch_cooking.jpg" alt="cooking borsch">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/militia.jpg" alt="militia">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/militia3.jpg" alt="militia">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cannons.jpg" alt="cannons">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cannon_shooting.jpg" alt="cannon shooting">
+                </div>
+            </div>
+
+        <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <!--Location section-->
+    <div id="location" class="container-fluid mySection">
+        <h1>Location and park info</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/map.png" alt="Map">
+            </div>
+            <div class="col-md-6">
+                <p class="text-justify">Fort Ross is a California State Historic Park showcasing a historic Russian-era
+                    fort compound that has been designated National Historic Landmark status. Located eleven miles north
+                    of Jenner on California Highway One, one of the most scenic coastal routes in the world Fort Ross is
+                    surrounded by sandy beaches, panoramic coves, and redwood forests, with breathtaking views of the
+                    Pacific Ocean.</p>
+                <div class="row">
+                    <div class="col-lg-4"><p><span class="font-weight-bold">Address:</span><br>19005 Coast Highway One<br>
+                        Jenner, CA 95450</p>
+                    </div>
+                    <div class="col-lg-4"><p><span class="font-weight-bold">Approximate driving times from:</span><br>
+                        Santa Rosa - 1 1/2 hours<br>San Francisco - 2 1/2 hours<br>Sacramento - 3 1/2 hours</p>
+                    </div>
+                    <div class="col-lg-4"><p><span class="font-weight-bold">Event day:</span> the 4th Saturday of July<br>
+                        <span class="font-weight-bold">Event time:</span> 10 am – 6 pm<br>
+                        <span class="font-weight-bold">Tickets</span> pay at the park on the day of the event. $20/car</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Activities section-->
+    <div id="activities" class="container-fluid mySection">
+        <h1>Activities</h1>
+        <p class="text-justify">Fort Ross Festival is packed with amazing performances and shows. But if you want
+            to explore something new, here is a list of recommended activities for all ages and abilities alike to enjoy.</p>
+        <div class="row">
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Enjoy the atmosphere of early 19th century</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card2.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Visit the Fort Ross windmill</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card3.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Enjoy the sound of ringing bells</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card4.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Try Russian tea and sushki</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card5.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Don't miss wonderful choral group</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card6.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Take a fencing lesson with Cossack</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card7.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Don't miss Militia & Cannon Demonstration</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card8.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Enjoy the coastline view</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card9.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Try traditional Russian foods</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card10.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Look how to cook over an open fire</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card11.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Watch skilled craftspeople work</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/card12.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Visit the house of the governor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-->
+    <div class="container-fluid">
+
+        <!-- Button to Open the Modal -->
+        <p>Push the button below to get the schedule of all performances and shows.</p>
+        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal">
+            See schedule
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Schedule (subject to change)</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Activity</th>
+                                <th>Location</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>9:00</td>
+                                <td>Divine Service – St. Nicholas Cathedral, San Francisco</td>
+                                <td>Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>10:30</td>
+                                <td>Russian Orthodox Procession & Panikhida</td>
+                                <td>Chapel & Cemetery</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                                <td>Bell Ringing: Victor Avdienko, Bell Ringer & Percussionist, SF Symphony</td>
+                                <td>Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                                <td>Russian American History Video Contest Presentations</td>
+                                <td>VC auditorium</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                                <td>Story Time with Mrs. Rotchev</td>
+                                <td>Rotchev House</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>Tea Tasting</td>
+                                <td>Kuskov House</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>San Francisco Balalaika Ensemble</td>
+                                <td>Fur Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>Archaeological Tour with Glenn Farris</td>
+                                <td>outside south sallyport gate</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>11:30 Story Time (in Russian & English) – with Marina Pavlova</td>
+                                <td>near Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>Windmill presentation</td>
+                                <td>Windmill</td>
+                            </tr>
+                            <tr>
+                                <td>12:00</td>
+                                <td>Annual Fort Ross Borsch Cook-Off</td>
+                                <td>Fort Compound Kitchen</td>
+                            </tr>
+                            <tr>
+                                <td>12:00</td>
+                                <td>Kedry – Traditional Russian games & circle dances</td>
+                                <td>Fort Compound</td>
+                            </tr>
+                            <tr>
+                                <td>12:30</td>
+                                <td>Slavyanka Chorus – Sacred Songs</td>
+                                <td>Fort Ross Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>12:00</td>
+                                <td>Fort Ross History & Trade Presentation</td>
+                                <td>Fur Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>1:00</td>
+                                <td>Militia & Cannon Demonstration</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1:00 – 1:45</td>
+                                <td>Dirty Cello Live Americana Music</td>
+                                <td>Call Picnic Area</td>
+                            </tr>
+                            <tr>
+                                <td>1:30</td>
+                                <td>Tea Tasting</td>
+                                <td>Kuskov House</td>
+                            </tr>
+                            <tr>
+                                <td>1:30</td>
+                                <td>San Francisco Balalaika Ensemble</td>
+                                <td>Fur Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>1:30</td>
+                                <td>Tea with the Rotchevs</td>
+                                <td>Rotchev House</td>
+                            </tr>
+                            <tr>
+                                <td>1:30</td>
+                                <td>Storytime (in Russian & English) with Svetlana Perschon</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1:45-3:00</td>
+                                <td>Traditional Games – MAS wrestling, tug-of-war, etc.</td>
+                                <td>Inside fort, SE corner</td>
+                            </tr>
+                            <tr>
+                                <td>2:00</td>
+                                <td>Su Nu Nu Shinal – Kashia Pomo Dancers</td>
+                                <td>Marine Terrace</td>
+                            </tr>
+                            <tr>
+                                <td>2:00</td>
+                                <td>Bell Ringing: Victor Avdienko, Bell Ringer & Percussionist, SF Symphony</td>
+                                <td>Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>2:30-3:15</td>
+                                <td>Dirty Cello – Live Americana Music</td>
+                                <td>Call Picnic Area</td>
+                            </tr>
+                            <tr>
+                                <td>2:30</td>
+                                <td>Slavyanka Chorus – Russian folk, patriotic & Cossack songs</td>
+                                <td>Fur Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>3:00</td>
+                                <td>Militia & Cannon Demonstration</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3:30</td>
+                                <td>Tea Tasting</td>
+                                <td>Kuskov House</td>
+                            </tr>
+                            <tr>
+                                <td>3:30</td>
+                                <td>Kitka – Balkan, Slavic & Caucasian Harmonies</td>
+                                <td>Fur Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>3:30</td>
+                                <td>Windmill Presentation</td>
+                                <td>Windmill</td>
+                            </tr>
+                            <tr>
+                                <td>3:30</td>
+                                <td>Story Time (in Russian & English) – with Marina Pavlova</td>
+                                <td>near Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>4:15</td>
+                                <td>Kedry – Traditional songs under apple trees</td>
+                                <td>Fort Compound</td>
+                            </tr>
+                            <tr>
+                                <td>4:30</td>
+                                <td>История Форта Росс и морского промысла</td>
+                                <td>Fur Warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>6:00</td>
+                                <td>Festival Ends</td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--History section-->
+    <div id="history" class="container-fluid mySection">
+        <h1>History of Fort Ross</h1>
+        <p>Fort Ross is the American name for the Russian fortress and a settlement in California that existed
+            from 1812 to 1841.</p>
+        <div class="row">
+            <div class="col-md-2 col-lg-3">
+                <figure>
+                    <img src="images/flag.png" alt="Flag of the Russian-American Company">
+                    <figcaption class="small">Flag of the Russian-American Company</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-10 col-lg-9">
+                <blockquote class="blockquote text-justify navy">
+                    <p>This settlement has been organized through the initiative of the Company. Its purpose is to
+                establish a settlement there or in some other place not occupied by Europeans, and to
+                introduce agriculture there by planting hemp, flax and all manner of garden produce; they also wish to
+                introduce livestock breeding in the outlying areas, both horses and cattle, hoping that the favorable
+                climate, which is almost identical to the rest of California, and the friendly reception on the part of
+                the indigenous people, will assist in its success.</p>
+                    <footer class="blockquote-footer navy">From an 1813 report to Emperor Alexander from the Russian American
+                Company Council, concerning trade with California and the establishment of Fort Ross
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-justify">
+                <p>Fort Ross was founded by a Russian-American company and was the southernmost Russian colony in North
+                    America. Fort Ross was created as an agricultural settlement designed to supply Russian Alaska with
+                    food. In the early years, the company also paid attention to the development of fur trade in Ross,
+                    but agriculture and small industry became the basis of its economy.</p>
+                <p>In 1841, the company sold its property to large landowner John Sutter. Currently, it is a part of
+                    California State Historic Park, a California Historical Landmark and a National Historic Landmark.</p>
+                <a href="https://www.fortross.org/russian-american-company.htm" target="_blank" class="btn btn-outline-dark"
+                   role="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <!--Contact section-->
+    <div id="contact" class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-4"><h2>Contact info</h2><i class="fas fa-mobile-alt"></i></div>
+            <div class="col-sm-4"><p>Call Fort Ross State Historic Park at:<br>(707) 847-3437<br>(707) 847-3286</p></div>
+            <div class="col-sm-4"><p>If you would like to communicate with California State Parks
+                Russian River district office, please contact at:<br>(707) 865-3124</p></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+.carousel-inner {
+    width: 80%;
+    margin: auto;
+}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+#banner {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+.card {
+    margin: 1em 0;
+}
+.mySection {
+    padding-top: 5em;
+}
+h1 {
+    margin-bottom: 1em;
+}
+#contact {
+    margin-top: 3em;
+    padding: 3em 0;
+    color: #ffffff;
+}
+#contact h2 {
+    padding-left: 0.5em;
+    display: inline-block;
+}
+.blockquote {
+    font-size: 1.5em;
+    font-family: Caveat;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gold; !important;
+}
+.navy {
+    color: #000080;
+}
+i {
+    font-size:3em;
+    color:white;
+    text-shadow:2px 2px 4px #000000;
+    margin-left: 1em;
+}
+#contact p {
+    padding: 1em;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+#samovar {
+    width:80%;
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 1200px) {
+    #myFlipbox {
+        display: none;
+    }
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: transparent;
+}
+
+.flip-box-back {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+}
+#join {
+    font-family: "Comic Sans MS";
+    color:#ffd700;
+    font-size: 50px;
+}
